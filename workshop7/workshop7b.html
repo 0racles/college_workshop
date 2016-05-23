@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Workshop 7</title>
+        <link href="http://staff.city.ac.uk/~sbbh718/js-course-2/assets/css/bootstrap/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+        <style type="text/css">#clear, #restore {margin-left: 10px; float: right;}</style>
+    </head>
+    <body>
+<div class="container">
+
+    <div class="row-fluid">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="header">Workshop 7 - Local Storage</h1>
+
+            <br /><br />
+
+
+            <form class="form-horizontal" role="form" id="form">
+              <div class="form-group">
+
+                    <label class="sr-only" for="input-name">First Name</label>
+                    <input name="userFirstName" type="text" class="form-control" id="input-name" placeholder="First name">
+                    <br />
+                    <label class="sr-only" for="input-last-name">Last Name</label>
+                    <input name="userLastname" type="text" class="form-control" id="input-last-name" placeholder="Last name">
+                    <br />
+                    <label class="sr-only" for="input-email">Email Address</label>
+                    <input name="userEmail" type="text" class="form-control" id="input-email" placeholder="Email address">
+                    <br />
+                    <!--select name="userAge" class="form-control" id="age">
+                        <option selected="selected">Age</option>
+                        <option value="0-10">0-10</option>
+                        <option value="11-20">11-20</option>
+                        <option value="21-30">21-30</option>
+                        <option value="31-40">31-40</option>
+                        <option value="41-50">41-50</option>
+                    </select>
+                    <br /-->
+                    <label class="sr-only" for="input-email">Your message</label>
+                    <textarea name="userComment" type="text" class="form-control" id="input-comment" placeholder="Your message"></textarea>
+<br />
+              <button type="submit" class="btn btn-primary" id="add-user">submit</button>
+
+              <p type="" class="btn btn-primary" id="clear">Clear my local storage!</p>
+            <p type="" class="btn btn-primary" id="restore">Restore previous session</p>
+              </div>
+            </form>
+
+
+
+
+        </div><!-- end col-md-12 -->
+</div>
+
+
+
+
+</div>
+    <script src="workshop7.js"></script>
+    </body>
+</html>

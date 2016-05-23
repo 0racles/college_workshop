@@ -1,0 +1,60 @@
+.basket-action {
+	width: 40px;
+	float: left;
+	margin-right: 30px;
+}
+.basket-action p {
+	cursor: pointer;
+}
+.quantity {
+	width: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.filters {
+	width: 180px;
+	padding: 20px 20px 20px 0;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+#products-list {
+	padding: 20px 20px 20px 0;
+}
+.filter {
+	width: 100px;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.products {
+	padding-left: 0;
+}
+.products li {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-image: none;
+	border-color: #eee;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px 1px 1px 5px;
+	margin: 20px 0;
+	padding: 20px;
+}
+.products .phone {
+	border-left-color: #f0ad4e;
+}
+.products .laptop {
+	border-left-color: #d9534f;
+}
+.products .toy {
+	border-left-color: #337ab7;
+}
+.products .book {
+	border-left-color: #5cb85c;
+}
+.loading {
+	background: url("http://staff.city.ac.uk/~sbbh718/js-course-2/assets/extra-images/ajax-loader.gif") no-repeat scroll center center rgba(0, 0, 0, 0);
+	height: 300px;
+}
